@@ -5,16 +5,11 @@ import ForgetPassword from "../pages/auth/forgot-password";
 const router = createBrowserRouter([
     {
         path: '/',
-        children: [
-            {
-                path: '/auth',
-                element: <SignPage />
-            },
-            {
-                path: '/forget-password',
-                element: <ForgetPassword />
-            }
-        ]
+        element: <SignPage />
+    },
+    {
+        path: '/forget-password',
+        element: <ForgetPassword />
     }
 ])
 

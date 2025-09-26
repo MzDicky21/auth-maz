@@ -60,7 +60,7 @@ export default function ForgetPassword() {
   };
 
   const handleKembaliClik = () => {
-    navigate('/auth')
+    navigate('/')
   };
 
   const togglePasswordVisibility = () => {
@@ -68,7 +68,7 @@ export default function ForgetPassword() {
   };
 
   return (
-    <div className="w-full max-w-3xl mx-auto flex shadow-2xl rounded-2xl overflow-hidden mt-22 justify-center">
+    <div className="w-full max-w-3xl mx-auto flex shadow-2xl rounded-2xl overflow-hidden mt-24 justify-center">
       {/* Form */}
       <div className="flex-1 bg-white p-8">
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
@@ -126,7 +126,7 @@ export default function ForgetPassword() {
 
           <button
             type="submit"
-            className="mt-2 w-full rounded-lg bg-indigo-600 px-4 py-2 text-white font-semibold hover:bg-indigo-700"
+            className="mt-2 w-full rounded-full bg-indigo-600 px-4 py-2 text-white font-semibold hover:bg-indigo-700"
           >
             confirm
           </button>
@@ -135,7 +135,7 @@ export default function ForgetPassword() {
 
       {/* Overlay */}
       <div className="flex-1 bg-gradient-to-r from-indigo-500 to-indigo-700 text-white flex flex-col items-center justify-center p-6">
-        <h2 className="text-2xl font-bold mb-2">
+        <h2 className="text-2xl font-bold mb-2 text-center">
           Are you sure you want to change your password?
         </h2>
         <p className="text-sm mb-4 text-center">
@@ -145,7 +145,7 @@ export default function ForgetPassword() {
           When you have finished you can return to the login page.
         </p>
         <button
-          className="mt-2 px-4 py-2 border border-white rounded-lg"
+          className="mt-2 px-8 py-2 border border-white rounded-full"
           onClick={handleKembaliClik}
         >
           Back
