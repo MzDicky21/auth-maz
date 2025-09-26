@@ -34,7 +34,7 @@ src/
 - install npm, tailwindcss, eslint, lucide-react, react-router-dom
 
 ## Demo
-- Live Demo: [https://maz-akf1tjjf8-maz-ulexs-projects.vercel.app/auth](https://maz-akf1tjjf8-maz-ulexs-projects.vercel.app/auth)
+- Live Demo: [https://auth-1eb4t7kop-maz-ulexs-projects.vercel.app](https://auth-1eb4t7kop-maz-ulexs-projects.vercel.app)
 
 ## Support
 [Email]: mazprom65@gmail.com
