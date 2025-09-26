@@ -33,5 +33,8 @@ src/
 - Modern browsers
 - install npm, tailwindcss, eslint, lucide-react, react-router-dom
 
+## Demo
+- Live Demo: [https://maz-akf1tjjf8-maz-ulexs-projects.vercel.app/auth](https://maz-akf1tjjf8-maz-ulexs-projects.vercel.app/auth)
+
 ## Support
 [Email]: mazprom65@gmail.com
