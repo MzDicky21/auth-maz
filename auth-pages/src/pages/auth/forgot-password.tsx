@@ -59,7 +59,7 @@ export default function ForgetPassword() {
     }
   };
 
-  const handleKembaliClik = () => {
+  const handleBack = () => {
     navigate('/')
   };
 
@@ -146,7 +146,7 @@ export default function ForgetPassword() {
         </p>
         <button
           className="mt-2 px-8 py-2 border border-white rounded-full"
-          onClick={handleKembaliClik}
+          onClick={handleBack}
         >
           Back
         </button>
